@@ -46,3 +46,21 @@
    5. Pelaporan dan Visualisasi:
    - Membuat laporan analisis.
 
+
+3. Penjelasan Dataset
+   - Sumber Data:
+   Dataset ini berasal dari pencatatan operasional di berbagai lokasi proyek. Setiap entri berisi informasi    
+   tentang waktu pelaksanaan, lokasi, jenis material, nama petugas, dan volume material yang digunakan.
+   - Penjelasan Fitur:
+   1. TANGGAL: Tanggal pelaksanaan kegiatan. Digunakan untuk analisis temporal untuk memahami pola musiman dan 
+   tren waktu.
+   2. ALAMAT : Lokasi kegiatan. Digunakan untuk analisis spasial untuk memahami distribusi material di berbagai 
+   lokasi.
+   3. MATERIAL : Jenis material yang digunakan (misalnya, MCB). Memberikan wawasan tentang jenis material yang 
+   paling banyak digunakan.
+   4. PETUGAS : Nama petugas yang bertugas. Digunakan untuk mengevaluasi kinerja petugas berdasarkan beban 
+   kerja yang diselesaikan.
+   5. VOLUME : Volume material yang digunakan (contoh: "18M"). Memberikan informasi tentang jumlah material 
+   yang dikelola di setiap proyek.
+
+

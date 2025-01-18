@@ -23,3 +23,23 @@
 2. Mengevaluasi efisiensi petugas dalam menyelesaikan tugas berdasarkan volume material yang dikelola.
 3. Membuat model prediktif untuk membantu perencanaan distribusi material yang lebih efisien.
 
+Alur / Tahapan / Kerangka Eksperimen
+1. Tahap Preprocessing Data:
+- Membersihkan data dari duplikasi dan nilai kosong.
+- Normalisasi format data, seperti pengubahan format tanggal dan konversi satuan volume material.
+2. Eksplorasi Data (Exploratory Data Analysis):
+- Membuat visualisasi seperti histogram, scatter plot, dan heatmap untuk menganalisis pola distribusi material.
+- Analisis temporal untuk menemukan tren berdasarkan waktu (harian, mingguan, atau musiman).
+3. Teknik Data Mining:
+- Clustering :
+- Menggunakan algoritma seperti K-Means untuk mengelompokkan lokasi berdasarkan pola penggunaan material.
+- Association Rules :
+- Menggunakan algoritma Apriori untuk menemukan hubungan antara jenis material dan efisiensi kerja petugas.
+- Forecasting :
+- Menggunakan regresi linear atau model machine learning lainnya untuk memprediksi kebutuhan material berdasarkan data historis.
+4. Evaluasi Hasil:
+- Menggunakan metrik seperti Mean Absolute Error (MAE) atau Root Mean Squared Error (RMSE) untuk mengukur akurasi prediksi.
+- Validasi hasil clustering dengan Silhouette Score.
+5. Pelaporan dan Visualisasi:
+- Membuat laporan analisis.
+
